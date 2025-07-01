@@ -22,12 +22,16 @@ The system considers both single-sentence and **sliding window-based multi-sente
 ---
 
 ## 📁 Project Structure
+
 emotion_project/
 │
-├── train.py                       # Training pipeline with data loading, augmentation, and model training
-├── predict.py                     # Interactive emotion prediction system (single or multi-sentence mode)
-├── model.py                       # Model architecture and custom Dataset class
-├── 한국어_연속적_대화_데이터셋.xlsx   # Korean continuous dialogue dataset (multi-sentence)
-├── model.pth                      # Trained model checkpoint (not included, shared separately)
-└── Multi.ipynb                    # Experiment notebook (optional)
----
+├── train.py # Training pipeline with data loading, augmentation, and model training
+├── predict.py # Interactive emotion prediction system (single or multi-sentence mode)
+├── model.py # Model architecture and custom Dataset class
+├── 한국어_연속적_대화_데이터셋.xlsx # Korean continuous dialogue dataset (multi-sentence)
+├── model.pth # Trained model checkpoint (not included, shared separately)
+└── Multi.ipynb # Experiment notebook (optional)
+
+코드 복사
+✅ 핵심 포인트:
+
