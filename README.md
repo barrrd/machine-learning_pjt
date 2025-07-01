@@ -22,7 +22,6 @@ The system considers both single-sentence and **sliding window-based multi-sente
 ---
 
 ## 📁 Project Structure
-
 emotion_project/
 │
 ├── train.py # Training pipeline with data loading, augmentation, and model training
@@ -32,9 +31,6 @@ emotion_project/
 ├── model.pth # Trained model checkpoint (not included, shared separately)
 └── Multi.ipynb # Experiment notebook (optional)
 
-yaml
-코드 복사
-
 ---
 
 ## 🚀 Quick Start
@@ -43,11 +39,32 @@ yaml
 
 ```bash
 pip install torch transformers pandas tqdm deep-translator
+
 2. Download the Trained Model
 The trained model file (model.pth) is not included in the repository due to size limitations.
 You can download it from the following link:
 
-🔗 [Download model.pth from Google Drive](https://drive.google.com/drive/folders/1g38VyXJsgSvHvLEvTw7WUuU6yvAG8Tac?usp=drive_link)
+🔗 Download model.pth from Google Drive
 
 Place the downloaded model.pth file inside the emotion_project folder.
+
+🎯 Emotion Categories
+Label	Meaning
+0	Fear
+1	Surprise
+2	Anger
+3	Sadness
+4	Neutral
+5	Happiness
+6	Disgust
+
+💡 Notes
+This project uses KLUE BERT (klue/bert-base) as the backbone.
+
+Korean language only.
+
+Supports both GPU and CPU.
+
+
+
 
