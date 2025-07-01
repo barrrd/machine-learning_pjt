@@ -30,4 +30,4 @@ emotion_project/
 ├── 한국어_연속적_대화_데이터셋.xlsx   # Korean continuous dialogue dataset (multi-sentence)
 ├── model.pth                      # Trained model checkpoint (not included, shared separately)
 └── Multi.ipynb                    # Experiment notebook (optional)
-
+---
