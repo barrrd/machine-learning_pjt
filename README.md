@@ -32,5 +32,11 @@ emotion_project/
 ├── model.pth # Trained model checkpoint (not included, shared separately)
 └── Multi.ipynb # Experiment notebook (optional)
 ```
+2. Download the Trained Model
+The trained model file (model.pth) is not included in the repository due to size limitations.
+You can download it from the following link:
 
+🔗 Download model.pth from Google Drive
+
+Place the downloaded model.pth file inside the emotion_project folder.
 
